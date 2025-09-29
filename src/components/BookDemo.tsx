@@ -39,8 +39,8 @@ export function BookDemo() {
     if (!form.current) return;
 
     emailjs
-      .sendForm("service_7q4dncf", "template_a7qf9gx", form.current, {
-        publicKey: "tF8eXMh4jafLcb8pr",
+      .sendForm("service_bjblaqv", "template_05uueck", form.current, {
+        publicKey: "nm0NORrFIllA23hGZ",
       })
       .then(
         () => {
