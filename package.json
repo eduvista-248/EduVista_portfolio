@@ -1,6 +1,6 @@
 {
       "name": "Company Portfolio",
-      "homepage": "https://eduvista-248.github.io/EduVista_portfolio/",
+      "homepage": "https://Somesh7723.github.io/eduvista_portfolio/",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -58,6 +58,6 @@
             "dev": "vite",
             "build": "vite build",
             "predeploy": "npm run build",
-            "deploy": "gh-pages -d build"
+            "deploy": "gh-pages -d dist"
       }
 }

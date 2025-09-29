@@ -1,38 +1,43 @@
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import somesh from "../assets/somesh.jpeg";
+import bharath from "../assets/bharath3.jpeg";
+import surya from "../assets/surya.jpeg";
+import kgf from "../assets/kgf1.jpeg";
 
 export function Team() {
   const teamMembers = [
     {
       name: "Bharath M",
-      image: "https://images.unsplash.com/photo-1584940121258-c2553b66a739?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMG1hbGUlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NTc3NTMyNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: bharath,
       social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#"
+        email: "maheshbharath916@gmail.com"
       }
     },
     {
-      name: "Somesh",
-      image: "https://images.unsplash.com/photo-1584940121258-c2553b66a739?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMG1hbGUlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NTc3NTMyNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      name: "Somesh Pramod Kolluru",
+      image: somesh,
       social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#"
+        email: "someshkolluru723@gmail.com"
       }
     },
     {
-      name: "Surya Kiran",
-      image: "https://images.unsplash.com/photo-1584940121258-c2553b66a739?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMG1hbGUlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NTc3NTMyNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      name: "Surya Kiran K",
+      image: surya,
       social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#"
+        email: "suryakongara2002@gmail.com"
       }
-    }
+    },
+     {
+      name: "Deekshit B Reddy",
+      image: kgf,
+      social: {
+        email: "18deekshithreddy@gmail.com"
+      }
+    },
   ];
 
   return (
@@ -63,7 +68,7 @@ export function Team() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="flex gap-2 justify-center">
-                    <Button size="sm" variant="secondary" className="bg-white/10 backdrop-blur-sm border-white/20">
+                    {/* <Button size="sm" variant="secondary" className="bg-white/10 backdrop-blur-sm border-white/20">
                       <Linkedin className="h-4 w-4" />
                     </Button>
                     <Button size="sm" variant="secondary" className="bg-white/10 backdrop-blur-sm border-white/20">
@@ -71,6 +76,9 @@ export function Team() {
                     </Button>
                     <Button size="sm" variant="secondary" className="bg-white/10 backdrop-blur-sm border-white/20">
                       <Github className="h-4 w-4" />
+                    </Button> */}
+                    <Button size="sm" variant="secondary" className="bg-white/10 backdrop-blur-sm border-white/20">
+                      <a href={`mailto:${member.social.email}`}><Mail className="h-4 w-4" /></a>
                     </Button>
                   </div>
                 </div>
