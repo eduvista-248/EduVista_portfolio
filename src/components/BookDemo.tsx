@@ -73,7 +73,7 @@ export function BookDemo() {
               Book a <span className="text-primary">Demo Call</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ready to see Aevam in action? Schedule a personalized demo and discover how our 
+              Schedule a personalized demo and discover how our 
               dashboards can transform your educational institution.
             </p>
           </div>
@@ -94,7 +94,7 @@ export function BookDemo() {
                   <ul className="space-y-3 text-muted-foreground">
                     <li className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                      Live walkthrough of student, teacher, and admin dashboards
+                      Live walkthrough of our dashboard's features and capabilities
                     </li>
                     <li className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-secondary rounded-full mt-2"></div>
@@ -102,11 +102,11 @@ export function BookDemo() {
                     </li>
                     <li className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                      Custom integration possibilities for your school
+                      Custom integration possibilities for your institutional needs
                     </li>
                     <li className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                      Q&A session with our education technology experts
+                      Q&A session with our team
                     </li>
                   </ul>
                 </CardContent>

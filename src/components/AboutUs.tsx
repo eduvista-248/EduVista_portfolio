@@ -35,26 +35,28 @@ export function AboutUs() {
               
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  We are a passionate startup dedicated to transforming the way schools manage and 
-                  interact with data. With our first project, we aim to simplify student and teacher 
-                  dashboards, making education more transparent, accessible, and impactful.
+                  We are a forward-thinking technology company redefining how institutions manage, understand, 
+                  and act on their data. Our platform transforms complex educational information into clear, 
+                  actionable insights—empowering teachers, students, and administrators to make smarter, 
+                  data-driven decisions every day.
                 </p>
                 
                 <p>
-                  Though we are just beginning, our vision is strong—to empower schools with digital 
-                  solutions that truly make a difference. We believe that better data leads to better 
-                  decisions, and better decisions lead to better outcomes for students.
+                  By combining innovation, design, and deep educational understanding, we create intuitive 
+                  dashboards that enhance transparency, streamline communication, and improve learning outcomes. 
+                  Our goal is simple: to make data work for education, not against it.
                 </p>
                 
                 <p>
-                  <strong className="text-foreground">Our Mission:</strong> To revolutionize how educational 
-                  data is accessed and used by creating intuitive, powerful dashboards that serve everyone 
-                  in the school ecosystem.
+                  <strong className="text-foreground">Our Mission:</strong> To empower institutions 
+                  with intelligent digital tools that simplify data management and gather meaningful educational 
+                  progress.
                 </p>
                 
                 <p>
-                  <strong className="text-foreground">Our Vision:</strong> A world where every student, 
-                  teacher, and administrator has instant access to the insights they need to succeed.
+                  <strong className="text-foreground">Our Vision:</strong> A future where data doesn’t just 
+                  inform decisions—it drives them. Where every educator and student can leverage the full power 
+                  of analytics to learn, grow, and succeed without limits.
                 </p>
               </div>
             </div>

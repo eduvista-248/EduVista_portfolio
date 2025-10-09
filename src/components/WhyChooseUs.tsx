@@ -12,7 +12,7 @@ export function WhyChooseUs() {
     {
       icon: Lightbulb,
       title: "Innovation First",
-      description: "As a startup, we bring fresh ideas and modern technology to solve traditional problems in education.",
+      description: "Building intelligent solutions that make learning systems smarter and stronger.",
       gradient: "from-primary/20 to-primary/5",
       iconColor: "text-primary"
     },
@@ -33,7 +33,7 @@ export function WhyChooseUs() {
     {
       icon: Heart,
       title: "Dedicated Team",
-      description: "A small but passionate team committed to delivering excellence and building trust with every school.",
+      description: "Committed to excellence, innovation, and trusted partnerships in education.",
       gradient: "from-chart-5/20 to-chart-5/5",
       iconColor: "text-chart-5"
     }
@@ -46,7 +46,7 @@ export function WhyChooseUs() {
           <Badge variant="secondary" className="mb-4">Why Choose Us</Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">What Makes Us Different</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            As a startup focused on education, we bring unique advantages to every partnership
+            Empowering education through intelligent, data-driven solutions.
           </p>
         </div>
 
@@ -78,9 +78,9 @@ export function WhyChooseUs() {
         {/* Startup Journey Section */}
         <div className="bg-card rounded-2xl p-8 border">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold mb-4">Our Startup Journey</h3>
+            <h3 className="text-2xl font-bold mb-4">Our Journey</h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We're building something special - one school at a time. Here's what drives us every day.
+              We're building something special - one institute at a time. Here's what drives us every day.
             </p>
           </div>
           
@@ -101,7 +101,7 @@ export function WhyChooseUs() {
               </div>
               <h4 className="font-semibold">Close Partnership</h4>
               <p className="text-sm text-muted-foreground">
-                As a small team, we work directly with schools to understand their unique needs
+                As a team, we work directly with you to understand their unique needs
               </p>
             </div>
             

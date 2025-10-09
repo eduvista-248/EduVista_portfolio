@@ -54,8 +54,8 @@ export function Team() {
             Meet the Innovators
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our diverse team of experts brings together decades of experience in technology, 
-            design, and business to deliver exceptional results for our clients.
+            Our passionate team of experts combines mastery in technology,
+            design, and business to deliver exceptional results for our you.
           </p>
         </div>
 

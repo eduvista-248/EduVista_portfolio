@@ -13,15 +13,15 @@ export function Services() {
     {
       icon: GraduationCap,
       title: "Student Dashboard Development",
-      description: "Custom dashboards designed for students to track performance, attendance, assignments, and learning progress seamlessly.",
-      features: ["Performance tracking", "Attendance monitoring", "Assignment management", "Progress visualization"],
+      description: "Custom dashboards designed for students to track performance, attendance, and learning progress seamlessly.",
+      features: ["Performance tracking", "Attendance monitoring", "Fee deadline monitoring", "Progress visualization"],
       gradient: "from-primary/20 to-primary/5"
     },
     {
       icon: BookOpen,
       title: "Teacher Dashboard Development", 
       description: "Powerful dashboards for teachers to manage classes, monitor student progress, and simplify academic planning.",
-      features: ["Class management", "Student progress monitoring", "Academic planning tools", "Report generation"],
+      features: ["Class management", "Student progress monitoring", "Grade management", "Report generation"],
       gradient: "from-secondary/20 to-secondary/5"
       // gradient: "bg-[linear-gradient(to_right,hsl(var(--secondary)/0.5),hsl(var(--secondary)/0.2))]"
 
@@ -37,7 +37,7 @@ export function Services() {
       icon: Sparkles,
       title: "Future Enhancements",
       description: "Integration of AI, analytics, and mobile accessibility to ensure dashboards evolve with educational needs.",
-      features: ["AI-powered insights", "Advanced analytics", "Mobile accessibility", "Predictive features"],
+      features: ["AI-powered insights", "Advanced analytics", "Fee Management", "Predictive features"],
       gradient: "from-chart-5/20 to-chart-5/5"
     }
   ];

@@ -26,8 +26,8 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                Smart Dashboards for 
-                <span className="text-primary"> Smarter Schools</span>
+                From Data to 
+                <span className="text-primary"> Better Outcomes</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
                 We build next-generation dashboards that empower students, teachers, and schools 
@@ -118,14 +118,14 @@ export function Hero() {
                         <div className="w-2 h-2 bg-secondary rounded-full animate-pulse"></div>
                         <span className="text-sm">Math Quiz - Grade 10A</span>
                       </div>
-                      <span className="text-xs text-muted-foreground">2 min ago</span>
+                      {/* <span className="text-xs text-muted-foreground">2 min ago</span> */}
                     </div>
                     <div className="flex items-center justify-between py-2 hover:bg-muted/30 rounded px-2 transition-colors">
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-accent rounded-full animate-pulse delay-500"></div>
                         <span className="text-sm">Attendance Updated</span>
                       </div>
-                      <span className="text-xs text-muted-foreground">5 min ago</span>
+                      {/* <span className="text-xs text-muted-foreground">5 min ago</span> */}
                     </div>
                   </div>
                 </div>

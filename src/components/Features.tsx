@@ -34,7 +34,7 @@ export function Features() {
     {
       icon: Zap,
       title: "Scalable & Flexible",
-      description: "Built for schools of all sizes, adaptable to future growth and evolving needs. Our platform grows with your institution.",
+      description: "Built for institutions of all sizes, adaptable to future growth and evolving needs. Our platform grows with your institution.",
       image: "https://images.unsplash.com/photo-1653976499575-6aacb2644727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBkYXNoYm9hcmQlMjBsYXB0b3AlMjBjb21wdXRlcnxlbnwxfHx8fDE3NTc0ODU2MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       reverse: true
     }
@@ -117,7 +117,7 @@ export function Features() {
                       <>
                         <div className="flex items-center space-x-2">
                           <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
-                          <span className="text-sm">GDPR and FERPA compliant</span>
+                          <span className="text-sm">GDPR-compliant data storage</span>
                         </div>
                         <div className="flex items-center space-x-2">
                           <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
@@ -133,7 +133,7 @@ export function Features() {
                         </div>
                         <div className="flex items-center space-x-2">
                           <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
-                          <span className="text-sm">Instant notifications and alerts</span>
+                          <span className="text-sm">Instant report generation</span>
                         </div>
                       </>
                     )}
