@@ -7,6 +7,11 @@ import {
   Zap
 } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import feature1 from "../assets/easy_to_use.jpg";
+import feature2 from "../assets/secure.jpg";
+import feature3 from "../assets/realTime_insights.jpg";
+import feature4 from "../assets/scalable.jpg";
+
 
 export function Features() {
   const features = [
@@ -14,28 +19,28 @@ export function Features() {
       icon: MousePointer,
       title: "Easy to Use",
       description: "Simple, clean, and intuitive interface designed for students, teachers, and administrators. No training required - just log in and start using.",
-      image: "https://images.unsplash.com/photo-1653976499575-6aacb2644727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBkYXNoYm9hcmQlMjBsYXB0b3AlMjBjb21wdXRlcnxlbnwxfHx8fDE3NTc0ODU2MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: feature1,
       reverse: false
     },
     {
       icon: Shield,
       title: "Secure & Reliable",
       description: "Data protection and security at the core, ensuring student and teacher information is always safe. Enterprise-grade encryption and regular backups.",
-      image: "https://images.unsplash.com/photo-1712263658129-001a9601bfbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFjaGVyJTIwdXNpbmclMjB0YWJsZXQlMjBjbGFzc3Jvb218ZW58MXx8fHwxNzU3NDg1NjM0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: feature2,
       reverse: true
     },
     {
       icon: TrendingUp,
       title: "Real-Time Insights",
       description: "Track attendance, performance, and activities instantly with real-time updates. Get the information you need when you need it most.",
-      image: "https://images.unsplash.com/photo-1596496638398-967ac30381f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50cyUyMGxlYXJuaW5nJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NTc0MDE0ODV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: feature3,
       reverse: false
     },
     {
       icon: Zap,
       title: "Scalable & Flexible",
       description: "Built for institutions of all sizes, adaptable to future growth and evolving needs. Our platform grows with your institution.",
-      image: "https://images.unsplash.com/photo-1653976499575-6aacb2644727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBkYXNoYm9hcmQlMjBsYXB0b3AlMjBjb21wdXRlcnxlbnwxfHx8fDE3NTc0ODU2MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: feature4,
       reverse: true
     }
   ];
