@@ -36,8 +36,8 @@ export function Footer() {
       { label: "Support", action: () => scrollToSection('services') }
     ],
     resources: [
-      { label: "Pilot Results", action: () => scrollToSection('testimonials') },
-      { label: "Documentation", action: () => console.log('Documentation') },
+      // { label: "Pilot Results", action: () => scrollToSection('testimonials') },
+      // { label: "Documentation", action: () => console.log('Documentation') },
       { label: "Support Center", action: () => console.log('Support') },
       { label: "Privacy Policy", action: () => console.log('Privacy') }
     ]

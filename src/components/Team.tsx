@@ -6,7 +6,8 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import somesh from "../assets/somesh.jpeg";
 import bharath from "../assets/bharath3.jpeg";
 import surya from "../assets/surya.jpeg";
-import kgf from "../assets/kgf1.jpeg";
+// import kgf from "../assets/kgf1.jpeg";
+import kgf from "../assets/kgf.jpeg";
 
 export function Team() {
   const teamMembers = [

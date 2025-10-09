@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import { ThemeToggle } from "./ThemeToggle";
 import logo from "../assets/withoutBackground.png";
+import "../styles/header.css";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ export function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "services", "features", "why-choose-us", "team", "contact", "book-demo"];
+      const sections = ["home", "about", "services", "features", "why-choose-us", "team", "book-demo"]; //"contact" removed
       const scrollPosition = window.scrollY + 100; // Offset for header height
 
       for (const section of sections) {
@@ -47,12 +48,12 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-60 h-10 bg-[rgba(f,f,f,1)] rounded-lg flex items-center justify-center">
+            <div className="h-12 bg-[rgba(f,f,f,1)] rounded-lg flex items-center justify-center" id="logoContainer">
               {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-white">
                 <path d="M12 2L2 7l10 5 10-5-10-5z" fill="currentColor"/>
                 <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg> */}
-              <img src={logo} className="w-60 h-10" alt="" />
+              <img src={logo} className="w-full h-auto" alt="AEVAM" />
             </div>
             {/* <span className="font-bold text-2xl">Aevam</span> */}
           </div>
@@ -137,7 +138,7 @@ export function Header() {
                 <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-full"></div>
               )}
             </button>
-            <button 
+            {/* <button 
               onClick={() => scrollToSection('contact')}
               className={`relative pb-2 transition-colors ${
                 activeSection === 'contact' 
@@ -149,12 +150,12 @@ export function Header() {
               {activeSection === 'contact' && (
                 <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-full"></div>
               )}
-            </button>
+            </button> */}
           </nav>
 
           {/* Theme Toggle and CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <Button onClick={() => scrollToSection('book-demo')}>Book a Demo Call</Button>
           </div>
 
@@ -232,7 +233,7 @@ export function Header() {
               >
                 Team
               </button>
-              <button 
+              {/* <button 
                 onClick={() => scrollToSection('contact')}
                 className={`text-left transition-colors ${
                   activeSection === 'contact' 
@@ -241,9 +242,9 @@ export function Header() {
                 }`}
               >
                 Contact
-              </button>
+              </button> */}
               <div className="flex items-center justify-between mt-4">
-                <ThemeToggle />
+                {/* <ThemeToggle /> */}
                 <Button onClick={() => scrollToSection('book-demo')}>
                   Book a Demo Call
                 </Button>
