@@ -72,9 +72,9 @@ export function Features() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   
                   {/* Feature icon overlay */}
-                  <div className="absolute top-6 right-6 w-12 h-12 bg-card/90 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-lg">
+                  {/* <div className="absolute top-6 right-6 w-12 h-12 bg-card/90 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-lg">
                     <feature.icon className="w-6 h-6 text-primary" />
-                  </div>
+                  </div> */}
                 </div>
                 
                 {/* Floating element */}
@@ -93,10 +93,11 @@ export function Features() {
                     <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
                       <feature.icon className="w-6 h-6 text-primary" />
                     </div>
-                    <Badge variant="outline">{`Feature ${index + 1}`}</Badge>
+                    <h3 className="text-3xl font-bold">{feature.title}</h3>
+                    {/* <Badge variant="outline">{`Feature ${index + 1}`}</Badge> */}
                   </div>
                   
-                  <h3 className="text-3xl font-bold">{feature.title}</h3>
+                  
                   <p className="text-lg text-muted-foreground leading-relaxed">
                     {feature.description}
                   </p>
