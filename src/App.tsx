@@ -21,7 +21,7 @@ export default function App() {
         <WhyChooseUs />
         <Team />
         <BookDemo />
-        <Contact />
+        {/* <Contact /> */}
       </main>
       <Footer />
     </div>

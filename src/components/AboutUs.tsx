@@ -31,7 +31,7 @@ export function AboutUs() {
           <div className="space-y-8">
             <div>
               <Badge variant="secondary" className="mb-4">Our Story</Badge>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">About EduVista</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">About Aevam</h2>
               
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>

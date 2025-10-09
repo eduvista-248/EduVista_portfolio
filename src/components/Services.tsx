@@ -23,6 +23,8 @@ export function Services() {
       description: "Powerful dashboards for teachers to manage classes, monitor student progress, and simplify academic planning.",
       features: ["Class management", "Student progress monitoring", "Academic planning tools", "Report generation"],
       gradient: "from-secondary/20 to-secondary/5"
+      // gradient: "bg-[linear-gradient(to_right,hsl(var(--secondary)/0.5),hsl(var(--secondary)/0.2))]"
+
     },
     {
       icon: Users,
@@ -60,7 +62,8 @@ export function Services() {
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {services.map((service, index) => (
             <Card key={index} className="group hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden border-0">
-              <div className={`h-2 bg-gradient-to-r ${service.gradient}`}></div>
+              <div className={`h-2 bg-gradient-to-r ${service.gradient} bg-opacity-80`}></div>
+              {/* <div className={`h-2 ${service.gradient}`}></div> */}
               <CardHeader className="pb-4">
                 <div className="flex items-start space-x-4">
                   <div className={`w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0 bg-gradient-to-br ${service.gradient} group-hover:scale-110 transition-transform duration-300`}>
@@ -83,10 +86,10 @@ export function Services() {
                   ))}
                 </div>
                 
-                <Button variant="outline" size="sm" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                {/* <Button variant="outline" size="sm" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                </Button> */}
               </CardContent>
             </Card>
           ))}

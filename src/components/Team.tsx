@@ -15,28 +15,32 @@ export function Team() {
       image: bharath,
       social: {
         email: "maheshbharath916@gmail.com"
-      }
+      },
+      designation: "Co-Founder and back-end specialist"
     },
     {
       name: "Somesh Pramod Kolluru",
       image: somesh,
       social: {
         email: "someshkolluru723@gmail.com"
-      }
+      },
+      designation: "Co-Founder and Lead Developer"
     },
     {
       name: "Surya Kiran K",
       image: surya,
       social: {
         email: "suryakongara2002@gmail.com"
-      }
+      },
+      designation: "C.O.O and DataBase Administrator"
     },
      {
       name: "Deekshit B Reddy",
       image: kgf,
       social: {
         email: "18deekshithreddy@gmail.com"
-      }
+      },
+      designation: "C.M.O & Designer"
     },
   ];
 
@@ -87,6 +91,9 @@ export function Team() {
               <CardContent className="p-6">
                 <div className="text-center">
                   <h3 className="text-xl font-semibold">{member.name}</h3>
+                </div>
+                <div className="text-center">
+                  <h5 className="text-sm font-normal text-gray-400">{member.designation}</h5>
                 </div>
               </CardContent>
             </Card>

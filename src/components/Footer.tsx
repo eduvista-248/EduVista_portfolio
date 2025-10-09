@@ -4,11 +4,13 @@ import {
   Github, 
   Linkedin, 
   Twitter, 
+  MessageCircle,
   Mail, 
   Phone, 
   MapPin,
   ArrowUp
 } from "lucide-react";
+import logo from "../assets/logo.png";
 
 export function Footer() {
   const scrollToTop = () => {
@@ -26,14 +28,12 @@ export function Footer() {
     company: [
       { label: "About Us", action: () => scrollToSection('about') },
       { label: "Our Team", action: () => scrollToSection('team') },
-      { label: "Careers", action: () => console.log('Careers') },
-      { label: "Blog", action: () => console.log('Blog') }
+      // { label: "Careers", action: () => console.log('Careers') },
     ],
     services: [
       { label: "Custom Dashboards", action: () => scrollToSection('services') },
-      { label: "System Integration", action: () => scrollToSection('services') },
       { label: "Cloud Hosting", action: () => scrollToSection('services') },
-      { label: "Training & Support", action: () => scrollToSection('services') }
+      { label: "Support", action: () => scrollToSection('services') }
     ],
     resources: [
       { label: "Pilot Results", action: () => scrollToSection('testimonials') },
@@ -44,7 +44,7 @@ export function Footer() {
   };
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
+    { icon: MessageCircle, href: "#", label: "Whatsapp" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" }
   ];
@@ -58,13 +58,14 @@ export function Footer() {
             {/* Company Info */}
             <div className="lg:col-span-1 space-y-6">
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-white">
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+                  {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-white">
                     <path d="M12 2L2 7l10 5 10-5-10-5z" fill="currentColor"/>
                     <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+                  </svg> */}
+                  <img src={logo} alt="" className="w-10 h-10"/>
                 </div>
-                <span className="font-bold text-2xl">EduVista</span>
+                <span className="font-bold text-2xl">Aevam</span>
               </div>
               
               <p className="text-muted-foreground">
@@ -75,15 +76,11 @@ export function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 text-sm">
                   <Mail className="h-4 w-4 text-muted-foreground" />
-                  <span>hello@eduvista.com</span>
+                  <span>aevam2025@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm">
                   <Phone className="h-4 w-4 text-muted-foreground" />
-                  <span>+1 (555) 123-4567</span>
-                </div>
-                <div className="flex items-center space-x-3 text-sm">
-                  <MapPin className="h-4 w-4 text-muted-foreground" />
-                  <span>Tech City, TC 12345</span>
+                  <span>+91 6364706757</span>
                 </div>
               </div>
 
@@ -168,7 +165,7 @@ export function Footer() {
         {/* Bottom Footer */}
         <div className="py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-sm text-muted-foreground">
-            © 2025 EduVista. All Rights Reserved.
+            © 2025 Aevam. All Rights Reserved.
           </div>
           
           <div className="flex items-center gap-4">

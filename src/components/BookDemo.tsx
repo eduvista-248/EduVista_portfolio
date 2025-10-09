@@ -67,13 +67,13 @@ export function BookDemo() {
   return (
     <section id="book-demo" className="py-24 bg-gradient-to-br from-primary/5 via-background to-secondary/5 dark:from-primary/10 dark:via-background dark:to-secondary/10 min-h-screen flex items-center">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Book a <span className="text-primary">Demo Call</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ready to see EduVista in action? Schedule a personalized demo and discover how our 
+              Ready to see Aevam in action? Schedule a personalized demo and discover how our 
               dashboards can transform your educational institution.
             </p>
           </div>

@@ -2,6 +2,7 @@ import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import { ThemeToggle } from "./ThemeToggle";
+import logo from "../assets/withoutBackground.png";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,13 +47,14 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-[rgba(62,11,230,1)] rounded-lg flex items-center justify-center">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-white">
+            <div className="w-60 h-10 bg-[rgba(f,f,f,1)] rounded-lg flex items-center justify-center">
+              {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-white">
                 <path d="M12 2L2 7l10 5 10-5-10-5z" fill="currentColor"/>
                 <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
+              </svg> */}
+              <img src={logo} className="w-60 h-10" alt="" />
             </div>
-            <span className="font-bold text-2xl">EduVista</span>
+            {/* <span className="font-bold text-2xl">Aevam</span> */}
           </div>
 
           {/* Desktop Navigation */}
