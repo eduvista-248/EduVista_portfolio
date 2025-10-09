@@ -62,20 +62,14 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email Us",
-      details: "contact@eduvista.com",
+      details: "Eduvista@gmail.com",
       subtitle: "We respond within 24 hours"
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: "+91 XXX XXX XXXX",
+      details: "+919989880984",
       subtitle: "Mon-Fri 9AM-6PM IST"
-    },
-    {
-      icon: MapPin,
-      title: "Visit Us",
-      details: "Tech Hub, Innovation City, India",
-      subtitle: "By appointment only"
     }
   ];
 
