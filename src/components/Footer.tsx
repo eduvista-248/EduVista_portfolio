@@ -44,7 +44,7 @@ export function Footer() {
   };
 
   const socialLinks = [
-    { icon: MessageCircle, href: "https://wa.me/6364706757text=Hey!", label: "Whatsapp" },
+    { icon: MessageCircle, href: "https://wa.me/6364706757?text=Hey!", label: "Whatsapp" },
     { icon: Linkedin, href: "https://www.linkedin.com/company/aevam", label: "LinkedIn" },
     { icon: Twitter, href: "https://x.com/aevam2025", label: "Twitter" }
   ];
