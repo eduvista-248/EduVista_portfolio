@@ -44,9 +44,9 @@ export function Footer() {
   };
 
   const socialLinks = [
-    { icon: MessageCircle, href: "#", label: "Whatsapp" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" }
+    { icon: MessageCircle, href: "https://wa.me/6364706757text=Hey!", label: "Whatsapp" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/aevam", label: "LinkedIn" },
+    { icon: Twitter, href: "https://x.com/aevam2025", label: "Twitter" }
   ];
 
   return (
@@ -94,7 +94,7 @@ export function Footer() {
                     className="w-10 h-10 p-0"
                     asChild
                   >
-                    <a href={social.href} aria-label={social.label}>
+                    <a href={social.href} target="_blank" aria-label={social.label}>
                       <social.icon className="h-4 w-4" />
                     </a>
                   </Button>
